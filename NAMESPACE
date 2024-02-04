@@ -1,0 +1,4 @@
+useDynLib(midicsvR, .registration = TRUE)
+
+export(csv2midi, midi2csv)
+

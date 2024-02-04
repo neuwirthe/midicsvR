@@ -1,0 +1,20 @@
+Package: midicsvR
+Type: Package
+Title: Conversion between midi and csv files
+Version: 0.1.0.9011
+Authors@R: person("Erich", "Neuwirth", , "erich.neuwirth@univie.ac.at", role = c("aut", "cre"))
+Description: Midi files (a standard way to represent music as file) 
+    are binary files and cannot be handled easily in R. 
+    This package has functions to convert midi to csv,
+    which can be read into R and transformed. The transformed csv files
+    then can be saved as midi files. The package builds on
+    C source code available at Fourmilab (https://www.fourmilab.ch/webtools/midicsv/)
+    written by John Walker. This web site also has the documentation of the
+    csv file format used.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LazyData: true
+URL: https://github.com/neuwirthe/midicsvR
+BugReports: https://github.com/neuwirthe/midicsvR/issues
+RoxygenNote: 7.3.1
