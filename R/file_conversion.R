@@ -1,4 +1,4 @@
-#' conversion between midi and csf files
+#' Conversion between midi and csv files
 #' @description
 #' Conversion between midi and csv files
 #'

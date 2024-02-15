@@ -4,7 +4,7 @@
 \alias{file_conversion}
 \alias{midi2csv}
 \alias{csv2midi}
-\title{conversion between midi and csf files}
+\title{Conversion between midi and csv files}
 \usage{
 midi2csv(midi_file, csv_file = NULL)
 
