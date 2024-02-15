@@ -18,3 +18,7 @@ LazyData: true
 URL: https://github.com/neuwirthe/midicsvR
 BugReports: https://github.com/neuwirthe/midicsvR/issues
 RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
