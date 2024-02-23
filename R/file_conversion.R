@@ -24,7 +24,6 @@
 #' csv2midi(csvfile,midifile)
 #' }
 #'
-#' @useDynlib midicsvR, .registration = TRUE
 
 
 

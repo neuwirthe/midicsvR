@@ -3,6 +3,7 @@ Type: Package
 Title: Conversion between midi and csv files
 Version: 0.1.0.9011
 Authors@R: person("Erich", "Neuwirth", , "erich.neuwirth@univie.ac.at", role = c("aut", "cre"))
+Maintainer: Erich Neuwirth <erich.neuwirth@univie.ac.at>
 Description: Midi files (a standard way to represent music as file) 
     are binary files and cannot be handled easily in R. 
     This package has functions to convert midi to csv,
