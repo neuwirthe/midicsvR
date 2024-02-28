@@ -32,6 +32,8 @@
 #' @rdname file_conversion
 midi2csv <- function(midi_file,csv_file = NULL){
   if(is.null(csv_file)) csv_file <- tempfile(fileext = ".csv")
+  midi_file <- path.expand(midi_file)
+  csv_file <- path.expand(csv_file)
   .C(c_midicsv,midi_file, csv_file) -> forget
   csv_file |> invisible()
 }
@@ -41,6 +43,8 @@ midi2csv <- function(midi_file,csv_file = NULL){
 #' @rdname file_conversion
 csv2midi <- function(csv_file,midi_file=NULL){
   if(is.null(midi_file)) midi_file <- tempfile(fileext = ".mid")
+  midi_file <- path.expand(midi_file)
+  csv_file <- path.expand(csv_file)
   .C(c_csvmidi, csv_file, midi_file) -> forget
   midi_file |>
     invisible()
